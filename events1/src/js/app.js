@@ -1,6 +1,7 @@
 import GameLogic from './GameLogic';
+import GameView from './GameView';
 
 document.addEventListener('DOMContentLoaded', () => {
-  // eslint-disable-next-line no-new
-  new GameLogic();
+  const view = new GameView();
+  new GameLogic(view);
 });
