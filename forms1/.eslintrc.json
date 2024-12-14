@@ -6,6 +6,8 @@
      "jest": true
   },
   "rules": {
+    "no-plusplus": "off",
+    "class-methods-use-this": "off",
     "no-restricted-syntax": [
       "error",
       "LabeledStatement",
