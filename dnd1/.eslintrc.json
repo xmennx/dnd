@@ -6,6 +6,10 @@
      "jest": true
   },
   "rules": {
+    "no-param-reassign": 0,
+    "no-unused-vars": "off",
+    "no-plusplus": "off",
+    "class-methods-use-this": "off",
     "no-restricted-syntax": [
       "error",
       "LabeledStatement",
